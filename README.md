@@ -1,8 +1,9 @@
- --># TodoList App
+# TodoList App
 
 This is a simple TodoList app built using React Native. It allows users to create, update, and delete tasks.
 
 ## College information
+
 - Name: Vũ Nguyễn Thành Tâm
 - Student ID: 2124801030104
 
