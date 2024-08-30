@@ -43,7 +43,7 @@ export default function todoListApp() {
           completed: false,
         },
       ]);
-      setTask;
+      setTask("");
       notification("Task added successfully");
     } else {
       notification("Task title can't be empty");
