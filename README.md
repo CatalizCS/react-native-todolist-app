@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+ --># TodoList App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple TodoList app built using React Native. It allows users to create, update, and delete tasks.
 
-## Get started
+## College information
+- Name: Vũ Nguyễn Thành Tâm
+- Student ID: 2124801030104
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- Create new tasks
+- Mark tasks as completed
+- Edit existing tasks
+- Delete tasks
 
-2. Start the app
+## To-do
 
-   ```bash
-    npx expo start
-   ```
+- Filter tasks based on their completion status
+- Save to local storage for saving old tasks
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Clone the repository: `git clone https://github.com/catalizcs/react-native-todolist-app.git`
+2. Navigate to the project directory: `cd todo-list-app`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Usage
 
-## Get a fresh project
+1. Launch the app on your device or emulator.
+2. You will be presented with the main screen, where you can view your tasks.
+3. To create a new task, tap on the "Add Task" button and enter the task details.
+4. To mark a task as completed, simply tap on the checkbox next to the task.
+5. To edit a task, tap on the task and make the necessary changes.
+6. To delete a task, swipe left on the task and tap on the delete button.
+7. To filter tasks based on their completion status, use the filter options at the top of the screen.
 
-When you're ready, run:
+## Contributing
 
-```bash
-npm run reset-project
-```
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## License
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the [MIT License](LICENSE).
